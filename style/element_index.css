@@ -95,7 +95,7 @@
 
 
 .work_me-1{
-	background-image: url("../picture/000/017.jpg");
+	background-image: url("../picture/000/017.jpeg");
 	background-repeat: no-repeat;
     background-position: center; 
     /*background-size:cover;*/
@@ -103,7 +103,7 @@
 }
 
 .work_me-2{
-	background-image: url("../picture/000/018.jpg");
+	background-image: url("../picture/000/018.jpeg");
 	background-repeat: no-repeat;
     background-position: center; 
     /*background-size:cover;*/
@@ -111,6 +111,11 @@
     /*height: 400px;*/
 }
 
+.me_pic{
+	max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
 
 /*------------ABOUT---*/
 
