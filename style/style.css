@@ -216,30 +216,25 @@ p{
 }
 .navbar .logo{
 	float: left;
-	transform: translateY(-20px);
 }
-.navbar .logo .cname{
-	-webkit-writing-mode: vertical-rl;
-	writing-mode: vertical-rl;
-	font-size: 12px;
-	letter-spacing: 4px;
-	line-height: 10px;
-}
-.navbar .logo .ename{
-	font-size: 18px;
-	transform:  translateX(-3px);
-}
+
 .menu{
+	height: 126px;
 	float: right;
 }
+.menu_bottom{
+	position: relative;
+}
 .menu li{
-	float: left;
+	float: left;	
 	margin-left: 64px;
-	font-size: 14px;
+	font-size: 18px;
 	color: #222;
+	font-weight: 500;
+	transform: translateY(107px);
 }
 .menu li a{
-	color: #888;
+	color: #555;
 	transition: 0.4s;
 }
 .menu li a:hover{
@@ -325,20 +320,17 @@ footer{
 	font-size: 16px;
 	font-weight: 500;
 	display: inline-block;
-	/*background-color: #333;*/
-	/*opacity: .5;*/
+
 }
-.footer_last{
-	left: 0%;
+.footer_home{
+	left: 40%;
+	transform: translate(-50%,-50%);
+	font-weight: 500;
 }
 
-.footer_next{
-	right: 0%;
-}
 .footer_top{
-	left: 50%;
+	left: 60%;
 	transform: translate(-50%,-50%);
-	font-weight: 200;
 }
 
 
