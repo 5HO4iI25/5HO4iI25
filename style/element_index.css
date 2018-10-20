@@ -116,13 +116,15 @@
 
 
 .about_btn{
-	opacity: 10%;
-	border: 1px solid #333;
-	transition: 1s;
-	padding: 10px;
+	opacity: 1;
 }
 
 
 .about_btn:hover{
-	opacity: 40%;
+	opacity: .8;
 }
+
+
+
+
+
