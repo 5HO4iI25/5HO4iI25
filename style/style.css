@@ -414,6 +414,11 @@ footer{
 	color: #fff;
 }
 
+.me_pic{
+	max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
 
 
 
